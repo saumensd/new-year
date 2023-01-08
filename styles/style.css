@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+/* header section */
+/* nav bar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    background-color: bisque;
+}
+nav:hover{
+    background-color: rgb(190, 190, 177);
+}
+
+.nav-bar {
+    background-color: beige;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 8px;
+}
+.nav-bar:hover{
+    background-color: white;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+ /* navbar style end */
+
+header {
+    background-color: #ffffff;
+    background-image: url(images/banner1.png);
+    background-repeat: no-repeat;
+}
+#all-think{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+#header-button{
+    width: 160px;
+height: 64px;
+left: 1210px;
+top: 578px;
+background-color: goldenrod;
+border-radius: 10px;
+margin-top: 10px;
+font-size: medium;
+color: white;
+}
+
+.header-text {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* failure section styles */
+
+.failure-section-text{
+    width: 50%;
+}
+#img-main-sec{
+    width: 50%;
+}
+#img-main-sec img{
+    width: 80%;
+}
+.my-failure {
+    display: flex;
+    align-items: center;
+}
+
+.plan-header {
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plan-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ /* gradient section style */
+.call-now {
+    background-image: linear-gradient(to bottom, rgba(184, 242, 187, 0.52), rgba(219, 167, 206, 0.73)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 30px;
+    margin-left: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-position {
+    left: 30px;
+    top: 50%;
+}
+#call-now-button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+ /* footer section styles */
+footer {
+    color: white;
+    background-color: black;display: flex;
+}
+.footer-width{
+    width: 50%;
+    margin: 50px;
+}
+.social-icon{
+    margin: 10px;
+}
+.footer-text{
+    margin: 10px;
+}
+#footer-email{
+      color: white;
+      background-color: black;
+      padding: 20px;
+      margin-top: 10px;
+      border-radius: 10px;
+}
+#footer-button{
+    color: black;
+      background-color: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+}
